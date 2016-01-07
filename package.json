@@ -1,0 +1,32 @@
+{
+  "name": "md2l20n",
+  "version": "1.0.0",
+  "description": "A tool to convert markdown files into HTML with ids for L20N.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soapdog/md2l20n.git"
+  },
+  "keywords": [
+    "markdown",
+    "l20n",
+    "l10n"
+  ],
+  "author": "Andre Alves Garzia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soapdog/md2l20n/issues"
+  },
+  "homepage": "https://github.com/soapdog/md2l20n#readme",
+  "dependencies": {
+    "cli": "^0.11.1",
+    "marked": "^0.3.5",
+    "uuid": "^2.0.1"
+  },
+  "bin": {
+    "md2l20n": "index.js"
+  }
+}
